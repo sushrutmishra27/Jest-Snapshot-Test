@@ -4,11 +4,9 @@ const Todos = ({ todos }) => {
   if (!todos) {
     return <></>;
   }
-
   if (todos.length === 0) {
     return <span>Todo list is empty</span>;
   }
-
   return (
     <div>
       {todos.map((todo) => (
